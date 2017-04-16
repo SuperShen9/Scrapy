@@ -16,13 +16,13 @@ for row in range(2, ws.max_row + 1):
     list2.append(ws['B' + str(row)].value)
 for row1 in range(2,sheet1.max_row+1):
     sheet1['D' + str(row1)]=sheet1['C' + str(row1)].value.lower().strip()
-    for i in range(len(list1)):
+    for i in range(1,len(list1)):
         if list2[i] ==None:
             kk=sheet1['D' + str(row1)].value.replace(str(list1[i]),'')
         else:
-            kk = sheet1['D' + str(row1)].value.replace(str(list1[i]), list2[i])
+            kk = sheet1['D' + str(row1)].value.replace(str(list1[i]),str(list2[i]))
         sheet1['D' + str(row1)].value=kk
-    sheet1['E' + str(row1)] = kk
+    sheet1['E' + str(row1)] = kk.strip()
     sheet1['D' + str(row1)] = sheet1['C' + str(row1)].value.lower().strip()
 for row1 in range(2,sheet2.max_row+1):
     sheet2['D' + str(row1)]=sheet2['C' + str(row1)].value.lower().strip()
@@ -31,8 +31,8 @@ for row1 in range(2,sheet2.max_row+1):
             kk2=sheet2['D' + str(row1)].value.replace(str(list1[i]),'')
         else:
             kk2 = sheet2['D' + str(row1)].value.replace(str(list1[i]), list2[i])
-        sheet2['D' + str(row1)].value=kk2
-    sheet2['E' + str(row1)] = kk2
+        sheet2['D' + str(row1)].value=kk2.strip()
+    sheet2['E' + str(row1)] = kk2.strip()
     sheet2['D' + str(row1)] = sheet2['C' + str(row1)].value.lower().strip()
 # if 'Match_M' in or_wb.get_sheet_names():
 #     or_wb.remove_sheet(or_wb.get_sheet_by_name('Match_M'))
