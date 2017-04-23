@@ -5,6 +5,6 @@ class qiubaispider (scrapy.Spider):
     start_urls=[
         "http://www.qiushibaike.com/",
     ]
-def parse(self,response):
-    print response.xpath('//div[@class="content"]').extract()
+    def parse(self,response):
+        print response.xpath('//div[@class="content"]').extract()
 
