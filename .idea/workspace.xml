@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa614d06-c846-42e7-9b90-93d8005ffd5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qiubai/qiubai/spiders/URL.py" afterPath="$PROJECT_DIR$/qiubai/qiubai/spiders/URL.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TEXT.py" afterPath="$PROJECT_DIR$/TEXT.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,12 +64,13 @@
         <option value="$PROJECT_DIR$/reviews/EN_DATA_Map.py" />
         <option value="$PROJECT_DIR$/EN_DATA_Map.py" />
         <option value="$PROJECT_DIR$/qiubai/qiubai/spiders/URL.py" />
+        <option value="$PROJECT_DIR$/TEXT.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="792" />
-    <option name="y" value="12" />
+    <option name="x" value="647" />
+    <option name="y" value="18" />
     <option name="width" value="1229" />
     <option name="height" value="1041" />
   </component>
@@ -431,7 +433,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="792" y="12" width="1229" height="1041" extended-state="0" />
+    <frame x="647" y="18" width="1229" height="1041" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2502099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -482,7 +484,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/capitalquiz5.txt" />
     <entry file="file://$PROJECT_DIR$/capitalquiz6.txt" />
     <entry file="file://$PROJECT_DIR$/capitalquiz8.txt" />
     <entry file="file://$PROJECT_DIR$/capitalquiz_answer8.txt" />
@@ -639,6 +640,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEXT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
       </provider>
