@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import os,openpyxl,xlrd
-os.chdir('D:\zzzsuper')
+os.chdir('D:\zlianxi\hebing_excell')
 from openpyxl.cell import get_column_letter
 from openpyxl.styles import Font,Style
 spam={'ID':2,'name':3,'age':4}
 k1=0
-for foldername,subfolder,excels in os.walk('D:\zzzsuper'):
+for foldername,subfolder,excels in os.walk('D:\zlianxi\hebing_excell'):
     baocun = openpyxl.Workbook()
     sheet = baocun.create_sheet(index=0, title='data')
     for excel in excels:
