@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 import os,openpyxl,xlrd
 os.chdir('D:\zlianxi\hebing_excell')
+file = 'baocun.xlsx'
+if os.path.exists(file):
+    os.remove(file)
 from openpyxl.cell import get_column_letter
 from openpyxl.styles import Font,Style
 spam={'ID':2,'name':3,'age':4}
 k1=0
-for foldername,subfolder,excels in os.walk('D:\zlianxi\hebing_excell'):
+fath=unicode('D:\zlianxi\hebing_excell','utf-8')
+for foldername,subfolder,excels in os.walk(fath):
     baocun = openpyxl.Workbook()
     sheet = baocun.create_sheet(index=0, title='data')
     for excel in excels:
@@ -19,12 +23,11 @@ for foldername,subfolder,excels in os.walk('D:\zlianxi\hebing_excell'):
                 sheet[kk + '1']=sheet1.cell(0,k).value
                 sheet['A1'] = '来源'
                 fontobj = Font(name='Arial', size=12, bold=True)
-                styleobj = Style(font=fontobj)
-                sheet['A1'].style = styleobj
-                sheet[kk + '1'].style = styleobj
+                sheet['A1'].font = fontobj
+                sheet[kk + '1'].font = fontobj
                 j = 2
                 for i in range(1,hang):
-                    sheet['A'+str(j+k1)] = str(excel)
+                    sheet['A'+str(j+k1)] = excel
                     sheet[kk+str(j+k1)] =sheet1.cell(i,k).value
                     j+=1
         k1+=hang-1

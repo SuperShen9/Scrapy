@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-import random
+import random,os
+os.chdir('D:\zlianxi\shijuan')
 import pprint
 from docx import Document
-for i in range(1,11):
+for i in range(1,10):
     doc=Document()
     doc.add_heading('试卷'+str(i)+'题目:')
     dict={}
