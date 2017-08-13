@@ -3,7 +3,7 @@ import random,os
 os.chdir('D:\zlianxi\shijuan')
 import pprint
 from docx import Document
-for i in range(1,10):
+for i in range(1,11):
     doc=Document()
     doc.add_heading('试卷'+str(i)+'题目:')
     dict={}
