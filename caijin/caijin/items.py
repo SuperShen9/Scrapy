@@ -10,5 +10,6 @@ import scrapy
 
 class CaijinItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    author = scrapy.Field()
+    content = scrapy.Field()
+    # pass
