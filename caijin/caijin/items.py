@@ -12,4 +12,5 @@ class CaijinItem(scrapy.Item):
     # define the fields for your item here like:
     author = scrapy.Field()
     content = scrapy.Field()
+    comments=scrapy.Field()
     # pass
