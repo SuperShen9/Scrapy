@@ -6,21 +6,17 @@ from shiye.items import ShiyeItem
 class shiyespider(scrapy.Spider):
     name = "shiye"
     start_urls = [
-        "http://search.gjsy.gov.cn:9090/queryAll/searchFrame?districtCode=632121&checkYear=2016&sydwName=",
+        "http://search.gjsy.gov.cn:9090/queryAll/searchFrame?districtCode=632121&checkYear=2016&sydwName=18",
     ]
 
+
     def parse(self,response):
-
-        for href in response.xpath('//tr[@class="STYLE19"]/td[2]/a/@href').extract():
-            print response.urljoin(href)
-
-
-        # print response.xpath('//tr[@class="STYLE19"]/td[2]/a/text()').extract()
-        # print response.xpath('//tr[@class="STYLE19"]/td[3]/a/text()').extract()
-
-
-
-        # for href in response.xpath('//span[@class="stats-comments"]/a/@href').extract():
-        #     comm_urls=response.urljoin(href)
-        #     req=Request(comm_urls,self.parse_detail)
-        #     yield req
+        for body in response.xpath('//tr[@class="STYLE19"]'):
+            urls= body.xpath('./td[2]/a/@href').extract()
+            codes= body.xpath('./td[2]/a/text()').extract()
+            names= body.xpath('./td[3]/a/text()').extract()
+            yield ShiyeItem(url=urls,code=codes,name=names)
+        # for href in response.xpath('//tr[@class="STYLE19"]/td[2]/a/@href').extract():
+        #     print response.urljoin(href)
+            # print response.xpath('//tr[@class="STYLE19"]/td[2]/a/text()').extract()
+            # print response.xpath('//tr[@class="STYLE19"]/td[3]/a/text()').extract()

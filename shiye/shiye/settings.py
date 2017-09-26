@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'shiye.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'shiye (+http://www.yourdomain.com)'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -67,7 +67,11 @@ ROBOTSTXT_OBEY = True
 #ITEM_PIPELINES = {
 #    'shiye.pipelines.ShiyePipeline': 300,
 #}
-
+ITEM_PIPELINES = {
+   'shiye.pipelines.ShiyePipeline': 300,
+}
+MONGO_URI='127.0.0.1:27017'
+MONGO_DATABASE='shiye'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
