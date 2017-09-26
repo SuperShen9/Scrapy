@@ -8,8 +8,7 @@
 import scrapy
 
 
-class QiubaiItem(scrapy.Item):
+class ZhihuItem(scrapy.Item):
     # define the fields for your item here like:
-    author = scrapy.Field()
-    content = scrapy.Field()
-
+    # name = scrapy.Field()
+    pass

@@ -2,34 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa614d06-c846-42e7-9b90-93d8005ffd5e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/8.1introduce.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/8.2zzsearch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/EN_DATA_Map.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/Excel_L.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/HLJ_htc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/Danny.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/M_Text.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/N_Text.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/SAS.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/TTT.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/city.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/hebing_excel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/hebing_new.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/mapping.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TTT/randomquiz.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/TW_WH_muban.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/doc_learning.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/doc_text.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/example.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/guomin_improve.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/guomin_improve_over10.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/homework7.2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/homework7.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning/str_review.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhihu/zhihu/spiders/url.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/qiubai/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/qiubai/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/qiubai/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/qiubai/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/qiubai/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/qiubai/spiders/URL.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/qiubai/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/qiubai/spiders/text.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiubai/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiushibaike.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qiushibaike_files/viewsource.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sina.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TTT.py" afterPath="$PROJECT_DIR$/TTT.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ganji/ganji/items.py" afterPath="$PROJECT_DIR$/ganji/ganji/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ganji/ganji/spiders/url.py" afterPath="$PROJECT_DIR$/ganji/ganji/spiders/url.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html.py" afterPath="$PROJECT_DIR$/html.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,22 +36,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="url.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ganji/ganji/spiders/url.py">
+        <entry file="file://$PROJECT_DIR$/zhihu/zhihu/spiders/url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-              <folding>
-                <element signature="e#39#52#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ganji/ganji/items.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhihu/zhihu/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="332">
+              <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TTT.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TTT.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,10 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/foo2.txt" />
-        <option value="$PROJECT_DIR$/reg.py" />
-        <option value="$USER_HOME$/text.py" />
-        <option value="$PROJECT_DIR$/randomquiz.py" />
         <option value="$PROJECT_DIR$/11.py" />
         <option value="$PROJECT_DIR$/mapping.py" />
         <option value="$PROJECT_DIR$/M_Text.py" />
@@ -132,24 +124,28 @@
         <option value="$PROJECT_DIR$/a.py" />
         <option value="$PROJECT_DIR$/b.py" />
         <option value="$PROJECT_DIR$/new_templete_clean.py" />
-        <option value="$PROJECT_DIR$/html.py" />
         <option value="$PROJECT_DIR$/EN_Mapping.py" />
         <option value="$PROJECT_DIR$/caijin/caijin/middlewares.py" />
         <option value="$PROJECT_DIR$/caijin/caijin/pipelines.py" />
         <option value="$PROJECT_DIR$/caijin/caijin/settings.py" />
         <option value="$PROJECT_DIR$/caijin/caijin/items.py" />
         <option value="$PROJECT_DIR$/caijin/caijin/spiders/url.py" />
-        <option value="$PROJECT_DIR$/TTT.py" />
         <option value="$PROJECT_DIR$/ganji/ganji/items.py" />
         <option value="$PROJECT_DIR$/ganji/ganji/spiders/url.py" />
+        <option value="$PROJECT_DIR$/html.py" />
+        <option value="$PROJECT_DIR$/ganji/ganji/templetes/ganji_index.html" />
+        <option value="$PROJECT_DIR$/ganji/ganji/server.py" />
+        <option value="$PROJECT_DIR$/TTT.py" />
+        <option value="$PROJECT_DIR$/zhihu/zhihu/settings.py" />
+        <option value="$PROJECT_DIR$/zhihu/zhihu/spiders/url.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="476" />
-    <option name="y" value="31" />
+    <option name="x" value="449" />
+    <option name="y" value="14" />
     <option name="width" value="1282" />
-    <option name="height" value="991" />
+    <option name="height" value="1004" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -169,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,7 +187,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ganji" />
+              <option name="myItemId" value="zhihu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,33 +201,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ganji" />
+              <option name="myItemId" value="zhihu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ganji" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ganji" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ganji" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiders" />
+              <option name="myItemId" value="zhihu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,43 +219,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caijin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
+              <option name="myItemId" value="zhihu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caijin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caijin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caijin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caijin" />
+              <option name="myItemId" value="zhihu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -293,6 +233,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +247,7 @@
       <recent name="C:\Users\Administrator\PycharmProjects\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TTT">
+  <component name="RunManager" selected="Python.server">
     <configuration default="false" name="TTT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,23 +261,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TTT.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -387,6 +312,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EN_Mapping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ganji/ganji" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ganji/ganji/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -527,18 +469,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.TTT" />
-      <item index="1" class="java.lang.String" itemvalue="Python.a" />
-      <item index="2" class="java.lang.String" itemvalue="Python.new_templete_clean" />
-      <item index="3" class="java.lang.String" itemvalue="Python.html" />
-      <item index="4" class="java.lang.String" itemvalue="Python.EN_Mapping" />
+      <item index="1" class="java.lang.String" itemvalue="Python.new_templete_clean" />
+      <item index="2" class="java.lang.String" itemvalue="Python.html" />
+      <item index="3" class="java.lang.String" itemvalue="Python.EN_Mapping" />
+      <item index="4" class="java.lang.String" itemvalue="Python.server" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.TTT" />
-        <item index="1" class="java.lang.String" itemvalue="Python.EN_Mapping" />
-        <item index="2" class="java.lang.String" itemvalue="Python.html" />
-        <item index="3" class="java.lang.String" itemvalue="Python.new_templete_clean" />
-        <item index="4" class="java.lang.String" itemvalue="Python.a" />
+        <item index="0" class="java.lang.String" itemvalue="Python.server" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TTT" />
+        <item index="2" class="java.lang.String" itemvalue="Python.EN_Mapping" />
+        <item index="3" class="java.lang.String" itemvalue="Python.html" />
+        <item index="4" class="java.lang.String" itemvalue="Python.new_templete_clean" />
       </list>
     </recent_temporary>
   </component>
@@ -565,27 +507,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="476" y="31" width="1282" height="991" extended-state="1" />
-    <editor active="false" />
+    <frame x="449" y="14" width="1282" height="1004" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2210611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23551637" sideWeight="0.503003" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25174826" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28128588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37762237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3719862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23916084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27039626" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23916084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -617,35 +559,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reviews/Excel_L.py" />
-    <entry file="file://$PROJECT_DIR$/reviews/homework7.2.py" />
-    <entry file="file://$PROJECT_DIR$/reviews/homework7.py" />
-    <entry file="file://$PROJECT_DIR$/reviews/str_review.py" />
-    <entry file="file://$PROJECT_DIR$/Py_json_JS.py" />
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/spiders/textqiubai.py" />
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/spiders/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text.py" />
-    <entry file="file://$PROJECT_DIR$/HLJ_htc.py" />
     <entry file="file://$PROJECT_DIR$/text11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
@@ -667,44 +580,12 @@
     <entry file="file://$PROJECT_DIR$/guomin_improve_over10.py" />
     <entry file="file://$PROJECT_DIR$/guomin_improve.py" />
     <entry file="file://$PROJECT_DIR$/EN_DATA_Map.py" />
-    <entry file="file://$PROJECT_DIR$/learning/doc_learning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/doc_text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/EN_DATA_Map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/learning/doc_learning.py" />
+    <entry file="file://$PROJECT_DIR$/learning/doc_text.py" />
+    <entry file="file://$PROJECT_DIR$/learning/EN_DATA_Map.py" />
     <entry file="file://$PROJECT_DIR$/TW_WH_muban.py" />
     <entry file="file://$PROJECT_DIR$/b.py" />
     <entry file="file://$PROJECT_DIR$/a.py" />
-    <entry file="file://$PROJECT_DIR$/html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="82" column="11" lean-forward="false" selection-start-line="49" selection-start-column="2" selection-end-line="82" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiushibaike.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="280" column="15" lean-forward="false" selection-start-line="280" selection-start-column="15" selection-end-line="280" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EN_Mapping.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -726,20 +607,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="38" column="64" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/items.py" />
+    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/middlewares.py" />
     <entry file="file://$PROJECT_DIR$/caijin/caijin/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -747,32 +616,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/spiders/URL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/settings.py" />
+    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/pipelines.py" />
     <entry file="file://$PROJECT_DIR$/caijin/caijin/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,27 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caijin/caijin/spiders/url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="e#24#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,17 +650,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganji/ganji/templetes/ganji_index" />
+    <entry file="file://$PROJECT_DIR$/sina.html" />
+    <entry file="file://$PROJECT_DIR$/qiushibaike.htm" />
+    <entry file="file://$PROJECT_DIR$/ganji/ganji/templetes/ganji_index.html" />
+    <entry file="file://$PROJECT_DIR$/ganji/ganji/table.html" />
+    <entry file="file://$PROJECT_DIR$/html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganji/ganji/templates/ganji_index.html" />
+    <entry file="file://$PROJECT_DIR$/ganji/ganji/server.py" />
+    <entry file="file://$PROJECT_DIR$/caijin/caijin/spiders/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qiubai/qiubai/spiders/URL.py" />
+    <entry file="file://$PROJECT_DIR$/zhihu/zhihu/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganji/ganji/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganji/ganji/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ganji/ganji/spiders/url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="e#39#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihu/zhihu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihu/zhihu/spiders/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

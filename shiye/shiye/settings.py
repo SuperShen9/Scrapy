@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for qiubai project
+# Scrapy settings for shiye project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,17 +9,17 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'qiubai'
+BOT_NAME = 'shiye'
 
-SPIDER_MODULES = ['qiubai.spiders']
-NEWSPIDER_MODULE = 'qiubai.spiders'
+SPIDER_MODULES = ['shiye.spiders']
+NEWSPIDER_MODULE = 'shiye.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0'
+#USER_AGENT = 'shiye (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-# ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -47,16 +47,14 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefo
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'qiubai.middlewares.QiubaiSpiderMiddleware': 543,
+#    'shiye.middlewares.ShiyeSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-DOWNLOADER_MIDDLEWARES = {
-    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-    'qiubai.middlewares.QiubaiSpiderMiddleware': 400,
-    'qiubai.middlewares.printSpiderMiddleware': 600,
-}
+#DOWNLOADER_MIDDLEWARES = {
+#    'shiye.middlewares.MyCustomDownloaderMiddleware': 543,
+#}
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
@@ -66,11 +64,10 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   'qiubai.pipelines.mongoPipeline': 300,
-}
-MONGO_URI="127.0.0.1:27017"
-MONGO_DATABASE="qiubai"
+#ITEM_PIPELINES = {
+#    'shiye.pipelines.ShiyePipeline': 300,
+#}
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
