@@ -10,7 +10,7 @@ class zhihuspider(scrapy.Spider):
     def parse(self, response):
         return scrapy.FormRequest.from_response(
             response,
-            formdata={"email":'675153178@qq.com',"password":'scrapyzhihu9339'},
+            formdata={"email":'XXXXXX',"password":'XXXXXX'},
             callback=self.after_login,
             method="POST",
             url="https://www.zhihu.com/login/email")
