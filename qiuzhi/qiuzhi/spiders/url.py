@@ -11,7 +11,7 @@ class qiuzhispider(scrapy.Spider):
     def parse(self, response):
         for i in range(0, 100):
             if i == 0:
-                detail_url = "http://www.jh597.com/Person/Per_Search_Quick.shtml?x_suozaidi1=%BD%F0%BB%AA"
+                detail_url = "hhttp://www.jh597.com/Person/Per_Search_Quick.shtml"
             else:
                 detail_url = "http://www.jh597.com/Person/Per_Search_Quick.shtml?PageNo=" + str(i)
             req = Request(detail_url, self.parse_url)
