@@ -6,6 +6,6 @@ def sim(a,b):
     c1 = ab(a, b)
     c2 = ab(b, a)
     s=1-(c1+c2)/len(a+b)
-    print ('%.f%%' % (s * 100))
+    return ('%.f%%' % (s * 100))
 
-sim('abc','bca')
+
