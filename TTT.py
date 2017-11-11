@@ -21,5 +21,10 @@
 #
 # baocun.save('text.xlsx')
 
-from text_simlarity import sim
-a=sim('avc','abc')
+# from text_simlarity import sim
+# a=sim('avc','abc')
+
+
+a=[1,'a','b','python']
+a[2]
+print len(a)
