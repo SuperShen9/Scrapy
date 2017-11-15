@@ -25,6 +25,4 @@
 # a=sim('avc','abc')
 
 
-a=[1,'a','b','python']
-a[2]
-print len(a)
+print(__file__)
