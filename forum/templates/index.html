@@ -19,40 +19,17 @@
          </div>
         <div class="row">
             <div class="col-xs-12 col-md-12">
-                <div class="panel panel-info">
+                {% for b in blocks %}
+                <div class="panel panel-default">
                    <div class="panel-heading">
-                      Python基础
+                      <span><a href="#" style="font-size:20px">{{b.name}}</a></span>
+                       <span class="pull-right">{{b.owner}}</span>
                    </div>
                    <div class="panel-body">
-                    学习
+                    {{b.desc}}
                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 col-md-12">
-                <div class="panel panel-info">
-                   <div class="panel-heading">
-                      Scrapy爬虫
-                   </div>
-                   <div class="panel-body">
-                    学习
-                   </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 col-md-12">
-                <div class="panel panel-info">
-                   <div class="panel-heading">
-                      Django框架
-                   </div>
-                   <div class="panel-body">
-                    学习
-                   </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
 
