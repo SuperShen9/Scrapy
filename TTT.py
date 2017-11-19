@@ -24,5 +24,19 @@
 # from text_simlarity import sim
 # a=sim('avc','abc')
 
+class Block():
+    name='python'
+    owner='super'
+    desc='learning'
 
-print(__file__)
+
+
+# f2='python123'
+# f3='scrapy5a7'
+# f4='b89django'
+# if f2=='python123' :
+#     print('python')
+# if f3=='scrapy5a7':
+#     print('scrapy')
+# if f4 == 'b89django':
+#     print('django')
