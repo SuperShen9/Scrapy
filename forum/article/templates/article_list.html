@@ -2,9 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>article</title>
+    <title>Pythoner</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
 </head>
-<body>
 
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="jumbotron">
+                  <h1>Hello, Pythoner!</h1>
+                    <br />
+                  <a class="btn btn-primary btn-lg" role="button" href="https://www.python.org/">欢迎来到python世界</a>
+                </div>
+            </div>
+         </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+
+                <ol class="breadcrumb">
+                  <li><a href="/">Home</a></li>
+                  <li class="active">{{b.name}}</li>
+                </ol>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                    <th class="info">标题</th>
+                    <th class="info">作者</th>
+                    <th class="info">创作时间</th>
+                    <th class="info">更新时间</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for art in articles %}
+                    <tr>
+                          <td class="warning">{{art.title}}</td>
+                          <td class="warning">{{art.content}}</td>
+                          <td class="warning">{{art.create_time_stamp|date:"Y-m-d P"}}</td>
+                          <td class="warning">{{art.last_update_time_stamp|date:"Y-m-d P"}}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>

@@ -3,7 +3,7 @@
 from django.db import models
 from block.models import Block
 class Article(models.Model):
-    block_id = models.ForeignKey(Block,verbose_name="板块id")
+    block = models.ForeignKey(Block,verbose_name="板块名称")
     title = models.CharField('文章名称', max_length=100)
     content = models.CharField('文章信息', max_length=10000)
     status = models.IntegerField(u'状态', choices=((1, '常用'), (0, '待定'), (-1, '隐藏')))
