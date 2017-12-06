@@ -10,12 +10,12 @@
         <form class="form-inline" action="/article/content/{{b.id}}" method="POST">{% csrf_token %}
 
             <label >标题&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" name="art_title" style="width: 20%"  class="form-control"  placeholder="标题">
+            <input type="text" name="art_title" value="{{art_title}}" style="width: 20%"  class="form-control"  placeholder="标题">
 
             <br /><br />
 
             <label >内容&nbsp;&nbsp;&nbsp;</label>
-            <textarea name="art_content" class="form-control" style="width: 50%" rows="5" ></textarea>
+            <textarea name="art_content" class="form-control" style="width: 50%" rows="5" >{{art_content}}</textarea>
 
             <br /><br /><br /><br />
 
@@ -23,6 +23,8 @@
 
         </form>
 
-
+    {% if error%}
+    <div class="alert alert-warning" role="alert">{{error}}</div>
+    {% endif %}
 
     {% endblock %}
