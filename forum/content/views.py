@@ -15,14 +15,15 @@ def content(request,block_id):
     else:
         form=Articleform(request.POST)
         if form.is_valid():
-            article = Article(block=block,title=form.cleaned_data["art_title"],
-                          status=0,content=form.cleaned_data["art_content"])
+            article = form.save(commit=False)
+            article.block=block
+            article.status=0
             article.save()
             return redirect('/article/list/%s'%block_id)
         else:
             return render(request,'content.html',{'b':block,'form':form})
 
-
+# 第一次的提交页面
 # art_title =request.POST['art_title'].strip()
 # art_content=request.POST['art_content'].strip()
 #
@@ -35,3 +36,17 @@ def content(request,block_id):
 #     return render(request, 'content.html',
 #                   {'b': block, "error": "标题和内容太长",
 #                    'art_title': art_title, 'art_content': art_content})
+
+# 第二次的提交页面
+# if request.method =='GET':
+#     return render(request,'content.html',{'b':block})
+#
+# else:
+#     form=Articleform(request.POST)
+#     if form.is_valid():
+#         article = Article(block=block,title=form.cleaned_data["art_title"],
+#                       status=0,content=form.cleaned_data["art_content"])
+#         article.save()
+#         return redirect('/article/list/%s'%block_id)
+#     else:
+#         return render(request,'content.html',{'b':block,'form':form})
