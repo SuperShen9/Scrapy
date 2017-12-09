@@ -6,16 +6,15 @@
       <li><a href="/">{{b.name}}</a ></li>
       <li class="active">发表文章</li>
     </ol>
-
         <form class="form-inline" action="/article/content/{{b.id}}" method="POST">{% csrf_token %}
 
             <label >标题&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" name="art_title" value="{{art_title}}" style="width: 20%"  class="form-control"  placeholder="标题">
+            <input type="text" name="art_title" value="{{form.art_title.value}}" style="width: 20%"  class="form-control"  placeholder="标题">
 
             <br /><br />
 
             <label >内容&nbsp;&nbsp;&nbsp;</label>
-            <textarea name="art_content" class="form-control" style="width: 50%" rows="5" >{{art_content}}</textarea>
+            <textarea name="art_content" class="form-control" style="width: 50%" rows="5" >{{form.art_content.value}}</textarea>
 
             <br /><br /><br /><br />
 
@@ -23,8 +22,14 @@
 
         </form>
 
-    {% if error%}
-    <div class="alert alert-warning" role="alert">{{error}}</div>
-    {% endif %}
+        {% for field in form %}
+            {% if filed.errors %}
+                {% for error in field.errors %}
+                    <div class="alert alert-warning" role="alert">111</div>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
 
     {% endblock %}
+
+<!--{{field.label}}:{{error}}-->
