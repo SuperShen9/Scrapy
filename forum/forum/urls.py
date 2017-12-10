@@ -22,5 +22,6 @@ urlpatterns = [
     url(r'^$',views.index),
     url(r'^article/',include('article.urls')),
     url(r'^article/',include('content.urls')),
+    url(r'^article/',include('detail.urls')),
 ]
 
