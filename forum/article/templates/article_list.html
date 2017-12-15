@@ -36,38 +36,63 @@
     <br /><br /><br />
 
 
-{% if page_count < 6 %}
-<nav aria-label="Page navigation">
-    <ul class="pagination pagination-lg">
-        <li>
-            {% for i in page_links %}
-            <a href="?page_no={{i}}">{{i}}</a>
-            {% endfor %}
-        </li>
+        {% if page_count < 6 %}
+        <nav aria-label="Page navigation">
+            <ul class="pagination pagination-lg">
+                    {% for i in page_links %}
+                    {% if page_no == i %}
+                        <li class="active">
+                         <a href="?page_no={{i}}">{{i}}</a>
+                        </li>
+                    {% else %}
+                        <li>
+                         <a href="?page_no={{i}}">{{i}}</a>
+                        </li>
+                    {% endif %}
+                    {% endfor %}
+             </ul>
+        </nav>
 
-     </ul>
-</nav>
-{% endif %}
+        {% else %}
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination pagination-lg">
+
+                {% if have_small%}
+                <li><a href="?page_no=1">首页</a></li>
+                <li>
+                  <a href="?page_no={{page_small}}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+
+                {% endif %}
+                    {% for i in page_links1 %}
+                    {% if page_no == i %}
+                        <li class="active">
+                         <a href="?page_no={{i}}">{{i}}</a>
+                        </li>
+                    {% else %}
+                        <li>
+                         <a href="?page_no={{i}}">{{i}}</a>
+                        </li>
+                    {% endif %}
+                    {% endfor %}
+
+                {% if have_max %}
+                <li>
+                  <a href="?page_no={{page_max}}" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+                <li><a href="?page_no={{page_count}}">尾页</a></li>
+                {% endif %}
+
+             </ul>
+        </nav>
+
+        {% endif %}
 
  {% endblock %}
 
 
- <!--<nav aria-label="Page navigation">-->
-      <!--<ul class="pagination pagination-lg">-->
-        <!--<li>-->
-          <!--<a href="#" aria-label="Previous">-->
-            <!--<span aria-hidden="true">&laquo;</span>-->
-          <!--</a>-->
-        <!--</li>-->
-        <!--<li>-->
-            <!--{% for i in page_links %}-->
-            <!--<a href="?page_no={{i}}">{{i}}</a>-->
-            <!--{% endfor %}-->
-        <!--</li>-->
-        <!--<li>-->
-          <!--<a href="#" aria-label="Next">-->
-            <!--<span aria-hidden="true">&raquo;</span>-->
-          <!--</a>-->
-        <!--</li>-->
-      <!--</ul>-->
-    <!--</nav>-->
