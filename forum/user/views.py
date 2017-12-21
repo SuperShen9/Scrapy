@@ -10,9 +10,15 @@ def Users(request):
         username=request.POST['username']
         email = request.POST['email']
         password = request.POST['password']
-        user = User.objects.create_user(username=username,
-                                        email=email, password=password)
-        user.is_active = True
-        user.save()
-        return render(request,'user.html')
+        password1 = request.POST['password1']
+
+        if password1 != password:
+            return render(request, 'register.html', {'error': '密码不一致'})
+        else:
+            user = User.objects.create_user(username=username,
+                                            email=email, password=password)
+            user.is_active = True
+            user.save()
+            return render(request, 'user.html')
+
 
