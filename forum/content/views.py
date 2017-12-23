@@ -2,7 +2,7 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
 from block.models import Block
-from article.models import Article
+# from article.models import Article
 from article.forms import Articleform
 
 def content(request,block_id):

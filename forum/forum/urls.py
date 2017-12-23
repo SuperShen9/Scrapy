@@ -24,5 +24,7 @@ urlpatterns = [
     url(r'^article/',include('content.urls')),
     url(r'^article/',include('detail.urls')),
     url(r'^register/', include('user.urls')),
+
 ]
 
+# url(r'^activate/(?P<code>\w+)$',activate),
