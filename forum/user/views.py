@@ -4,12 +4,10 @@ from django.contrib.auth.models import User
 from user.models import User_active
 import uuid
 from django.core.mail import send_mail
+code = str(uuid.uuid4()).replace('-', '')
 
 def Users(request):
-
-    code = str(uuid.uuid4()).replace('-', '')
     activate_link = 'http://%s/activate/%s' % (request.get_host(),code)
-
 
     if request.method =='GET':
         return render(request,'register.html')
@@ -20,7 +18,7 @@ def Users(request):
         password = request.POST['password']
         password1 = request.POST['password1']
 
-        activate_email = '''点击 <a href='%s'> 这里</a>激活''' % activate_link
+        activate_email = '''点击 <a href='%s'> 这里 </a>激活''' % activate_link
         send_mail(subject='[pythoner 网址] 激活邮件',
                   message='点击链接激活：%s' % activate_link,
                   html_message=activate_email,
