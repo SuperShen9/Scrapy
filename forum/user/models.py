@@ -7,7 +7,6 @@ class User_active(models.Model):
     active_code = models.CharField('激活码', max_length=100)
     over_time = models.DateTimeField('创建时间', auto_now=True)
 
-
     def __str__(self):
         return self.active_code
     class Meta:

@@ -6,3 +6,4 @@ class Activate_Admin(admin.ModelAdmin):
     list_display = ('username','active_code','over_time')
 
 admin.site.register(User_active,Activate_Admin)
+
