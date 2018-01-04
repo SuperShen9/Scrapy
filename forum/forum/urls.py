@@ -26,5 +26,6 @@ urlpatterns = [
     url(r'^article/',include('detail.urls')),
     url(r'^register/', include('user.urls')),
     url(r'^activate/(?P<ac_code>\w+)$',activate),
+    url(r'^account/',include('django.contrib.auth.urls'))
 ]
 
