@@ -18,6 +18,7 @@ from django.contrib import admin
 import views
 from user_active.views import activate
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',views.index),
@@ -26,6 +27,6 @@ urlpatterns = [
     url(r'^article/',include('detail.urls')),
     url(r'^register/', include('user.urls')),
     url(r'^activate/(?P<ac_code>\w+)$',activate),
-    url(r'^account/',include('django.contrib.auth.urls'))
+    url(r'^accounts/',include('django.contrib.auth.urls'))
 ]
 
