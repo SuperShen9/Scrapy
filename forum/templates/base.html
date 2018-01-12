@@ -15,6 +15,7 @@
                     <br />
                     {% if user.is_authenticated %}
                         <p>{{ user.username }}.你好 <a href="/accounts/logout/">  登出</a></p>
+                        <a style="float:right" href="/accounts/password_change/">修改密码</a>
                     {% else %}
                         <p>匿名用户.请<a href="/accounts/login/">登入</a></p>
                     {% endif %}
