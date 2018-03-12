@@ -10,7 +10,7 @@ class fxhspider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        for i in range(1, 2):
+        for i in range(1, 12):
             if i==1:
                 detail_url = "https://www.feixiaohao.com/currencies/"
             else:
