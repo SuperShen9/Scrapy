@@ -44,8 +44,8 @@ def mix2(df1,df2):
 
 
 df_A=mix2(df_CN,df_EN)
-# print df_A
-df1=df_A
+# print df_A.head()
+
 
 # 三项合并部分
 def mix3(df1,df2,df3):
@@ -62,9 +62,9 @@ def mix3(df1,df2,df3):
     df1.loc[:, 'Test Sample Type'] = '%s-%s-%s'%(t1,t2,t3)
     return df1
 
-df_B=mix3(df_CN,df_EN,df_TW)
-df_C=mix3(df_CN,df_KO,df_TW)
+# df_B=mix3(df_CN,df_EN,df_TW)
 
-print df_B.head(3)
-print df_C.head(3)
+
+print df_A.head(3)
+# print df_B.head(3)
 
