@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa614d06-c846-42e7-9b90-93d8005ffd5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/douban_requests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhihu_requests.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EN_Mapping.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TTT.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jhxq.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new_templete_clean.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/text11.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/text_simlarity.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu/zhihu/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu/zhihu/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu/zhihu/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu/zhihu/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu/zhihu/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu/zhihu/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhihu/zhihu/spiders/url.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html.py" afterPath="$PROJECT_DIR$/zlearning/html.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/smaple help.py" afterPath="$PROJECT_DIR$/zlearning/work/smaple help.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zlearning/sample help plus.py" afterPath="$PROJECT_DIR$/zlearning/sample help plus.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhihu_requests.py" afterPath="$PROJECT_DIR$/zhihu_requests.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,15 +21,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="douban_requests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="douban_requests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/douban_requests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="340">
+              <caret line="32" column="42" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="42" />
               <folding>
                 <element signature="e#25#40#0" expanded="true" />
                 <element signature="e#217#225#0" expanded="false" />
                 <element signature="e#647#681#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zhihu_requests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhihu_requests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="e#25#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,8 +122,8 @@
         <option value="D:/pandas/program/selecting_strategy/select_stock.py" />
         <option value="D:/pandas/program/selecting_strategy/select_level.py" />
         <option value="$PROJECT_DIR$/douban.ipynb" />
-        <option value="$PROJECT_DIR$/zhihu_requests.py" />
         <option value="$PROJECT_DIR$/douban_requests.py" />
+        <option value="$PROJECT_DIR$/zhihu_requests.py" />
       </list>
     </option>
   </component>
@@ -177,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,6 +198,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +219,7 @@
       <recent name="D:\pandas\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.douban_requests">
+  <component name="RunManager" selected="Python.zhihu_requests">
     <configuration default="false" name="text11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -455,8 +448,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.douban_requests" />
-        <item index="1" class="java.lang.String" itemvalue="Python.zhihu_requests" />
+        <item index="0" class="java.lang.String" itemvalue="Python.zhihu_requests" />
+        <item index="1" class="java.lang.String" itemvalue="Python.douban_requests" />
         <item index="2" class="java.lang.String" itemvalue="Python.select_level" />
         <item index="3" class="java.lang.String" itemvalue="Python.select_stock" />
         <item index="4" class="java.lang.String" itemvalue="Python.text11" />
@@ -486,7 +479,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119072706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -801,17 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhihu_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,18 +808,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/douban_requests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="32" column="42" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="42" />
           <folding>
             <element signature="e#25#40#0" expanded="true" />
             <element signature="e#217#225#0" expanded="false" />
             <element signature="e#647#681#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihu_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
