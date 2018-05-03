@@ -19,7 +19,6 @@ os.chdir('C:\\Users\Administrator\Desktop')
 #     print i
 # exit()
 
-
 df=pd.read_excel('sheet1.xlsx')
 
 if os.path.exists('RUN'):
@@ -32,39 +31,44 @@ os.chdir('C:\\Users\Administrator\Desktop\\RUN')
 # print df.columns[-4:]
 # exit()
 
-# for i in range(3):
-#     for x in df.columns:
-#         if x in df.columns[-4]:
-#             val = df[x].loc[i].encode('gbk')
-#             fl = open('%s.txt'%df['NAME'].loc[i], 'a')
-#             if x=='NAME':
-#                 fl.write('{\n')
-#             else:
-#                 fl.write('\t\r"{}\r"'.format(x) + ':' + '\r"' + str(val) +'\r"'+',')
-#                 fl.write("\n")
-#         else:
-
-
-for i in range(3):
+for i in range(6):
+    count=0
     for x in df.columns:
+        count+=1
         val = df[x].loc[i]
-        if x == 'number' or x == 'docUrl' or x == 'remark':
+        if x == 'docUrl' or x == 'remark':
             val = val
+        elif isinstance(val, float):
+            val = '\r""'
         else:
             val = val.encode('gbk')
+        fl = open('%s-%s-%s.txt' % (df['name'].loc[i],df['organization'].loc[i],df['webName'].loc[i]), 'a')
+        if count<=len(df.columns)-4:
+            if x == 'webName':
+                fl.write('{\n')
+                fl.write('\t\r"webUrl": "http://www.chictr.org.cn/searchproj.aspx"\n')
+                fl.write('\t\r"{}\r"'.format(x) + ':' + '\r"' + str(val) + '\r"' + ',')
+                fl.write("\n")
+            elif x == 'remark':
+                fl.write('\t\r"remark":"",\n')
+            else:
+                fl.write('\t\r"{}\r"'.format(x) + ':' + '\r"' + str(val) + '\r"' + ',')
+                fl.write("\n")
+        elif count==len(df.columns)-3:
+            fl.write('\t\r"info": {\n')
+            fl.write('\t\t\r"name\r"' + ':' + '\r"' + str(val) + '\r"' + ',\n')
 
-        fl = open('%s.txt' % df['name'].loc[i], 'a')
-        if x == 'webName':
-            fl.write('{\n')
-            fl.write('\t\r"webUrl": "http://www.chictr.org.cn/searchproj.aspx"\n')
-            fl.write('\t\r"{}\r"'.format(x.lower()) + ':' + '\r"' + str(val) + '\r"' + ',')
-            fl.write("\n")
-        elif x == 'remark':
-            fl.write('\t\r"remark":"",\n')
-        # elif x == 'docUrl':
-        #     fl.write('\t\r"{}\r"'.format(x.lower()) + ':' + '\r"' + str(val) + '\r"' + ',')
+        elif count==len(df.columns)-1:
+            if val[-1]=='0':
+                fl.write('\t\t\r"{}\r"'.format(x) + ':' + '\r"' + str(val)[:4] + '\r"' + ',\n')
+            else:
+                fl.write('\t\t\r"{}\r"'.format(x) + ':' + '\r"' + str(val)[4:] + '\r"' + ',\n')
+
+        elif count == len(df.columns) :
+            fl.write('\t\t\r"{}\r"'.format(x) + ':' + '\r"' + str(val) + '\r"' + ',\n')
+            fl.write('}')
         else:
-            fl.write('\t\r"{}\r"'.format(x.lower()) + ':' + '\r"' + str(val) + '\r"' + ',')
+            fl.write('\t\t\r"{}\r"'.format(x) + ':' + '\r"' + str(val) + '\r"' + ',')
             fl.write("\n")
 
 
