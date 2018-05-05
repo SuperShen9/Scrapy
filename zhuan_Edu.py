@@ -37,24 +37,30 @@ for i in range(df.shape[0]):
     uuid=df['uuid'].loc[i]
     fl.write('\t\r"years": [{')
     for ii in range(df_edu[df_edu['uuid']==uuid].shape[0]):
-        fl.write("\n")
-        for xx in df_edu.columns:
-            val_edu = df_edu[xx].loc[ii]
-            if  xx == 'holdingPeriod' or xx == 'creditHour'or xx =='year':
-                val_edu = val_edu
+        year=df_edu['year'].loc[ii]
+
+        # print df_edu[df_edu['year']==year].shape[0]
+        # exit()
+
+        for xx in range(df_edu[df_edu['year']==year].shape[0]):
+            fl.write("\n")
+            for xx in df_edu.columns:
+                val_edu = df_edu[xx].loc[ii]
+                if  xx == 'holdingPeriod' or xx == 'creditHour'or xx =='year':
+                    val_edu = val_edu
+                else:
+                    val_edu = val_edu.encode('gbk')
+                if xx=='uuid':
+                    pass
+                elif xx=='creditHour':
+                    fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')
+                else:
+                    fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
+            if ii<df_edu[df_edu['uuid']==uuid].shape[0]-1:
+                fl.write("\t}, {")
             else:
-                val_edu = val_edu.encode('gbk')
-            if xx=='uuid':
                 pass
-            elif xx=='WeChatSubName':
-                fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')
-            else:
-                fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
-        if ii<df_edu[df_edu['uuid']==uuid].shape[0]-1:
-            fl.write("\t}, {")
-        else:
-            pass
-    fl.write("\t}],")
+        fl.write("\t}],")
 
 
 
