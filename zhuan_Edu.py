@@ -36,31 +36,39 @@ for i in range(df.shape[0]):
 # 合并PC表
     uuid=df['uuid'].loc[i]
     fl.write('\t\r"years": [{')
+
+    cdt=(df_edu['uuid']==uuid )
+
     for ii in range(df_edu[df_edu['uuid']==uuid].shape[0]):
         year=df_edu['year'].loc[ii]
 
-        # print df_edu[df_edu['year']==year].shape[0]
-        # exit()
+        fl.write("\n")
 
-        for xx in range(df_edu[df_edu['year']==year].shape[0]):
-            fl.write("\n")
-            for xx in df_edu.columns:
-                val_edu = df_edu[xx].loc[ii]
-                if  xx == 'holdingPeriod' or xx == 'creditHour'or xx =='year':
-                    val_edu = val_edu
-                else:
-                    val_edu = val_edu.encode('gbk')
-                if xx=='uuid':
-                    pass
-                elif xx=='creditHour':
-                    fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')
-                else:
-                    fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
-            if ii<df_edu[df_edu['uuid']==uuid].shape[0]-1:
-                fl.write("\t}, {")
+        for xx in df_edu.columns:
+            val_edu = df_edu[xx].loc[ii]
+            if  xx == 'holdingPeriod' or xx == 'creditHour'or xx =='year':
+                val_edu = val_edu
             else:
+                val_edu = val_edu.encode('gbk')
+
+
+            if xx=='uuid':
                 pass
-        fl.write("\t}],")
+            elif xx=='year' :
+                fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
+                fl.write('\t\t\r"info": [{\n')
+            elif xx=='unitName' :
+                fl.write('\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
+                fl.write('\t\t\t\r"unitInfo": [{\n')
+
+            elif xx=='creditHour':
+                fl.write('\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')
+            else:
+                fl.write('\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
+        fl.write("\t\t\t\t}")
+
+
+
 
 
 
