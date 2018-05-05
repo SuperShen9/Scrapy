@@ -6,8 +6,9 @@ pd.set_option('expand_frame_repr',False)
 os.chdir('C:\\Users\Administrator\Desktop')
 
 df = pd.read_excel('sheet1.xlsx')
-df_PC = pd.read_excel('sheet_PC.xlsx')
-df_MV = pd.read_excel('sheet_MV.xlsx')
+df_edu = pd.read_excel('sheet_edu.xlsx')
+df_edu = df_edu.sort_values(by=['uuid','year','unitName'],ascending=[1,1,1])
+
 
 if os.path.exists('RUN'):
     shutil.rmtree('RUN')
