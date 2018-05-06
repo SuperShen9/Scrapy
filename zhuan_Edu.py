@@ -75,13 +75,13 @@ for i in range(df.shape[0]):
                         if xx=='uuid' or xx=='year'or xx=='unitName' :
                             pass
                         else:
-                            fl.write('\t\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')\
-            print count_all
+                            fl.write('\t\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')
+
             if count!=all:
                 fl.write("\t\t\t\t\t}\n\t\t\t\t]\n\n\t\t\t}, {\n")
 
-            elif count_all==len(df_edu[df_edu['uuid'] == uuid]):
-                fl.write("\t\t\t\t\t}\n\t\t\t\t]\n\n\t\t\t}]\n\t\t\r}\n\t\r]\n\r]")
+            # elif count_all==len(df_edu[df_edu['uuid'] == uuid]):
+            #     fl.write("\t\t\t\t\t}\n\t\t\t\t]\n\n\t\t\t}]\n\t\t\r}\n\t\r]\n\r]")
             else:
                 fl.write("\t\t\t\t\t}\n\t\t\t\t]\n\n\t\t\t}]\n\t\t\r},\n\t\t\r{\n")
 
