@@ -16,6 +16,7 @@ os.makedirs('C:\\Users\Administrator\Desktop\\RUN')
 
 os.chdir('C:\\Users\Administrator\Desktop\\RUN')
 
+count_all = 0
 for i in range(df.shape[0]):
     fl = open('%s-%s-%s.txt' % (df['name'].loc[i], df['organization'].loc[i], df['webName'].loc[i]), 'a')
     for x in df.columns:
@@ -35,44 +36,55 @@ for i in range(df.shape[0]):
             fl.write("\n")
 
     uuid=df['uuid'].loc[i]
-    fl.write('\t\r"years": [{')
+    fl.write('\t\r"years": [{\n')
+    df_ren = df_edu[df_edu['uuid'] == uuid]
+    df_ren=df_ren.reset_index(drop=True)
 
-    # 遍历每一个人的信息
-    for ii in range(df_edu[df_edu['uuid']==uuid].shape[0]):
-        df_year=df_edu[df_edu['uuid']==uuid]
-        df_year=df_year.reset_index(drop=True)
-        # # print df_year
-        #
-        if ii < df_edu[df_edu['uuid']==uuid].shape[0]-1:
-            year=df_year['year'].loc[ii]
-            year1 = df_year['year'].loc[ii+1]
-            cdt=year==year1
-        #
-        fl.write("\n")
 
-        for xx in df_year.columns:
-            val_edu = df_year[xx].loc[ii]
-            if  xx == 'holdingPeriod' or xx == 'creditHour'or xx =='year':
-                val_edu = val_edu
+    # print df_ren.groupby('year').first().reset_index()
+
+    for y in df_ren.groupby('year').first().reset_index()['year']:
+        df_year=df_ren[df_ren['year']==y]
+        fl.write('\t\t\t\r"year": "{}",'.format(y) + '\n')
+        fl.write('\t\t\t\r"info": [{' + '\n')
+
+        count=0
+        all=len(df_year.groupby('unitName').first().reset_index()['unitName'])
+        for n in df_year.groupby('unitName').first().reset_index()['unitName']:
+            count_all += 1
+            count+=1
+            df_name = df_year[df_ren['unitName'] == n]
+            fl.write('\t\t\t\t\r"unitName": "{}",'.format(n.encode('gbk')) + ',\n')
+            fl.write('\t\t\t\t\r"unitInfo": [{\n')
+            for ii in range(df_name.shape[0]):
+                for xx in df_name.columns:
+                    val_edu = df_ren[xx].loc[ii]
+                    if xx == 'holdingPeriod' or xx == 'creditHour' or xx == 'year' :
+                        val_edu = val_edu
+                    else:
+                        val_edu = val_edu.encode('gbk')
+                    if ii!=df_name.shape[0]-1:
+                        if xx=='uuid' or xx=='year'or xx=='unitName' :
+                            pass
+                        elif xx=='creditHour':
+                            fl.write('\t\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')
+                            fl.write('\t\t\t\t\t\r},\n\t\t\t\t\t\r{\n')
+                        else:
+                            fl.write('\t\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
+                    else:
+                        if xx=='uuid' or xx=='year'or xx=='unitName' :
+                            pass
+                        else:
+                            fl.write('\t\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')\
+            print count_all
+            if count!=all:
+                fl.write("\t\t\t\t\t}\n\t\t\t\t]\n\n\t\t\t}, {\n")
+
+            elif count_all==len(df_edu[df_edu['uuid'] == uuid]):
+                fl.write("\t\t\t\t\t}\n\t\t\t\t]\n\n\t\t\t}]\n\t\t\r}\n\t\r]\n\r]")
             else:
-                val_edu = val_edu.encode('gbk')
+                fl.write("\t\t\t\t\t}\n\t\t\t\t]\n\n\t\t\t}]\n\t\t\r},\n\t\t\r{\n")
 
-            if xx=='uuid':
-                pass
-            elif xx=='year' :
-                if not cdt:
-                    fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
-                    fl.write('\t\t\r"info": [{\n')
-        #
-            elif xx=='unitName' :
-                fl.write('\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
-                fl.write('\t\t\t\r"unitInfo": [{\n')
-
-            elif xx=='creditHour':
-                fl.write('\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')
-            else:
-                fl.write('\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
-        fl.write("\t\t\t\t}")
 
 
 
