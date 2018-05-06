@@ -40,10 +40,13 @@ for i in range(df.shape[0]):
     df_ren = df_edu[df_edu['uuid'] == uuid]
     df_ren=df_ren.reset_index(drop=True)
 
-
+    # print df_ren
+    # exit()
     # print df_ren.groupby('year').first().reset_index()
+    # exit()
 
     for y in df_ren.groupby('year').first().reset_index()['year']:
+
         df_year=df_ren[df_ren['year']==y]
         fl.write('\t\t\t\r"year": "{}",'.format(y) + '\n')
         fl.write('\t\t\t\r"info": [{' + '\n')
@@ -51,14 +54,15 @@ for i in range(df.shape[0]):
         count=0
         all=len(df_year.groupby('unitName').first().reset_index()['unitName'])
         for n in df_year.groupby('unitName').first().reset_index()['unitName']:
-            count_all += 1
             count+=1
             df_name = df_year[df_ren['unitName'] == n]
+            df_name = df_name.reset_index(drop=True)
+
             fl.write('\t\t\t\t\r"unitName": "{}",'.format(n.encode('gbk')) + ',\n')
             fl.write('\t\t\t\t\r"unitInfo": [{\n')
             for ii in range(df_name.shape[0]):
                 for xx in df_name.columns:
-                    val_edu = df_ren[xx].loc[ii]
+                    val_edu = df_name[xx].loc[ii]
                     if xx == 'holdingPeriod' or xx == 'creditHour' or xx == 'year' :
                         val_edu = val_edu
                     else:
@@ -74,6 +78,7 @@ for i in range(df.shape[0]):
                     else:
                         if xx=='uuid' or xx=='year'or xx=='unitName' :
                             pass
+
                         else:
                             fl.write('\t\t\t\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + '\n')
 
