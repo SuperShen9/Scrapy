@@ -33,30 +33,37 @@ for i in range(df.shape[0]):
         else:
             fl.write('\t\r"{}\r"'.format(x) + ':' + '\r"' + str(val) + '\r"' + ',')
             fl.write("\n")
-# 合并PC表
+
     uuid=df['uuid'].loc[i]
     fl.write('\t\r"years": [{')
 
-    cdt=(df_edu['uuid']==uuid )
-
+    # 遍历每一个人的信息
     for ii in range(df_edu[df_edu['uuid']==uuid].shape[0]):
-        year=df_edu['year'].loc[ii]
-
+        df_year=df_edu[df_edu['uuid']==uuid]
+        df_year=df_year.reset_index(drop=True)
+        # # print df_year
+        #
+        if ii < df_edu[df_edu['uuid']==uuid].shape[0]-1:
+            year=df_year['year'].loc[ii]
+            year1 = df_year['year'].loc[ii+1]
+            cdt=year==year1
+        #
         fl.write("\n")
 
-        for xx in df_edu.columns:
-            val_edu = df_edu[xx].loc[ii]
+        for xx in df_year.columns:
+            val_edu = df_year[xx].loc[ii]
             if  xx == 'holdingPeriod' or xx == 'creditHour'or xx =='year':
                 val_edu = val_edu
             else:
                 val_edu = val_edu.encode('gbk')
 
-
             if xx=='uuid':
                 pass
             elif xx=='year' :
-                fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
-                fl.write('\t\t\r"info": [{\n')
+                if not cdt:
+                    fl.write('\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
+                    fl.write('\t\t\r"info": [{\n')
+        #
             elif xx=='unitName' :
                 fl.write('\t\t\t\r"{}\r"'.format(xx) + ':' + '\r"' + str(val_edu) + '\r"' + ',\n')
                 fl.write('\t\t\t\r"unitInfo": [{\n')
