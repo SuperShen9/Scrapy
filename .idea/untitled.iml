@@ -8,6 +8,7 @@
     <orderEntry type="module" module-name="city_58" />
     <orderEntry type="module" module-name="cpin_quant_class" />
     <orderEntry type="module" module-name="cpin_quant_class" />
+    <orderEntry type="module" module-name="cpin_quant_class" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />
