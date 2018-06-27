@@ -2,79 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa614d06-c846-42e7-9b90-93d8005ffd5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/caijin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/feixiaohao/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/ganji/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/haoma/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/qiuzhi/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/shiye/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/tiantian/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/spiders/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/spiders/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/spiders/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/spiders/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/job.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/job1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/job2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/spiders/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/spiders/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/spiders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/spiders/url.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fankui.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zlearning/gomine20180507/zhuan_Duo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zlearning/gomine20180507/zhuan_Edu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zlearning/gomine20180507/zhuan_TXT.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zlearning/work/smaple help.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/untitled.iml" afterPath="$PROJECT_DIR$/.idea/untitled.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TTT.py" afterPath="$PROJECT_DIR$/TTT.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,21 +28,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="TTT.py" pinned="false" current-in-tab="true">
-        <entry file="file://E:/BaiduYunDownload/finally project/TTT.py">
+        <entry file="file://$PROJECT_DIR$/TTT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wx_friends.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/BaiduYunDownload/finally project20180621/finally project/wx-auto-reply/wx_friends.py">
+      <file leaf-file-name="gate_1_min_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/BaiduYunDownload/finally project/gate_1_min_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="149">
+              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="53" />
+              <folding>
+                <element signature="e#24#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,9 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_所有交易对.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_tickers.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_K线数据.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class9/简单自动交易系统.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class8/【案例1】择时策略.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/backup.py" />
@@ -192,7 +128,10 @@
         <option value="E:/BaiduYunDownload/Super/other_code/bolling/Signals.py" />
         <option value="E:/BaiduYunDownload/Super/other_code/bolling/Evaluate.py" />
         <option value="E:/BaiduYunDownload/Super/other_code/bolling/main.py" />
+        <option value="$PROJECT_DIR$/zlearning/fankui.py" />
+        <option value="$PROJECT_DIR$/fankui.py" />
         <option value="E:/BaiduYunDownload/finally project/TTT.py" />
+        <option value="$PROJECT_DIR$/TTT.py" />
       </list>
     </option>
   </component>
@@ -240,7 +179,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,6 +213,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,11 +225,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\untitled" />
       <recent name="E:\BaiduYunDownload\Super\other_code\布林线验证" />
       <recent name="E:\BaiduYunDownload\block_coin\gate project" />
       <recent name="E:\BaiduYunDownload\block_coin\program\weixin\20180610_article" />
       <recent name="E:\BaiduYunDownload\block_coin\coin_quant_class_0518\coin_quant_class\program\my_code" />
-      <recent name="D:\pandas\code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\PycharmProjects\untitled\Gomine_DOC_Unicode" />
@@ -300,7 +239,7 @@
       <recent name="C:\Users\Administrator\PycharmProjects\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TTT">
+  <component name="RunManager" selected="Python.TTT (1)">
     <configuration default="false" name="boll_signal (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,23 +253,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="parameter result" />
       <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/Super/other_code/bolling/boll_signal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/BaiduYunDownload/Super/other_code/bolling" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="parameter result" />
-      <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/Super/other_code/bolling/text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -382,6 +304,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="finally project" />
       <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/finally project/TTT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TTT (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TTT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -522,18 +461,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.boll_signal (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.text" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dingding" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.TTT" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dingding" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.TTT" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TTT (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.TTT" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
-        <item index="2" class="java.lang.String" itemvalue="Python.boll_signal (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dingding" />
-        <item index="4" class="java.lang.String" itemvalue="Python.text" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TTT (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TTT" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="3" class="java.lang.String" itemvalue="Python.boll_signal (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dingding" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +507,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35427952" sideWeight="0.5089568" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3900325" sideWeight="0.49074075" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20368364" sideWeight="0.4910432" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42145178" sideWeight="0.4910432" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34019503" sideWeight="0.48946258" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -608,17 +547,11 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/BaiduYunDownload/parameter result/【案例3】寻找最优参数.py" />
-    <entry file="file://E:/BaiduYunDownload/parameter result/read_data/text.py" />
-    <entry file="file://E:/BaiduYunDownload/Super/read/text.py" />
-    <entry file="file://E:/BaiduYunDownload/Super/read/read_data.py" />
-    <entry file="file://E:/BaiduYunDownload/股票量化学习/class8/class8/program/Functions.py" />
-    <entry file="file://E:/BaiduYunDownload/股票量化学习/class8/class8/program/config.py" />
     <entry file="file://E:/BaiduYunDownload/block_coin/gate project/gate_1_min_data.py" />
     <entry file="file://E:/BaiduYunDownload/block_coin/program/class8/【案例1】择时策略.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -848,19 +781,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data ht.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-773">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://E:/BaiduYunDownload/finally project20180621/finally project/wx-auto-reply/wx_friends.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
           <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zlearning/fankui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://E:/BaiduYunDownload/finally project/TTT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="1224">
+          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fankui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/finally project/Function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/finally project/gate_1_min_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="e#24#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
