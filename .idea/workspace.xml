@@ -2,7 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa614d06-c846-42e7-9b90-93d8005ffd5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/caijin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/feixiaohao/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/ganji/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/haoma/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/qiuzhi/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/shiye/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/Old_crawl/tiantian/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gomine_DOC_Unicode/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/caijin/spiders/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/caijin/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/feixiaohao/spiders/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/feixiaohao/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/ganji/spiders/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/ganji/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma/spiders/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/haoma2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/haoma/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/job.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/job1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/job2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/qiuzhi/spiders/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/qiuzhi/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/shiye/shiye/spiders/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old_crawl/tiantian/tiantian/spiders/url.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/untitled.iml" afterPath="$PROJECT_DIR$/.idea/untitled.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -22,42 +91,22 @@
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zhuan_weiyi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_weiyi.py">
+    <leaf>
+      <file leaf-file-name="TTT.py" pinned="false" current-in-tab="true">
+        <entry file="file://E:/BaiduYunDownload/finally project/TTT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zhuan_gongzhonghao.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_gongzhonghao.py">
+      <file leaf-file-name="wx_friends.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/BaiduYunDownload/finally project20180621/finally project/wx-auto-reply/wx_friends.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhuan_Edu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_Edu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backup.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/backup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="9">
+              <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -82,6 +131,9 @@
       <find>stock_value</find>
       <find>user</find>
       <find>item</find>
+      <find>leverage_rate</find>
+      <find>everage_rate</find>
+      <find>c_rate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,57 +142,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/feixiaohao/feixiaohao/settings.py" />
-        <option value="$PROJECT_DIR$/feixiaohao/feixiaohao/spiders/url.py" />
-        <option value="$PROJECT_DIR$/smaple help.py" />
-        <option value="$PROJECT_DIR$/zlearning/sample help plus.py" />
-        <option value="$PROJECT_DIR$/text11.py" />
-        <option value="D:/pandas/program/config.py" />
-        <option value="D:/pandas/program/Functions.py" />
-        <option value="D:/pandas/program/selecting_strategy/hebing_stock.py" />
-        <option value="D:/pandas/program/selecting_strategy/aaa.py" />
-        <option value="D:/pandas/program/selecting_strategy/text.py" />
-        <option value="D:/pandas/program/selecting_strategy/select_stock.py" />
-        <option value="D:/pandas/program/selecting_strategy/select_level.py" />
-        <option value="$PROJECT_DIR$/douban.ipynb" />
-        <option value="$PROJECT_DIR$/douban_requests.py" />
-        <option value="$PROJECT_DIR$/zhihu_requests.py" />
-        <option value="$PROJECT_DIR$/lagou.py" />
-        <option value="$PROJECT_DIR$/zhuan_TXT.py" />
-        <option value="$PROJECT_DIR$/zhuan_Duo.py" />
-        <option value="$PROJECT_DIR$/zhuan_Edu.py" />
-        <option value="E:/city_58/city_58/main.py" />
-        <option value="E:/city_58/city_58/spiders/text.html" />
-        <option value="E:/city_58/city_58/text.html" />
-        <option value="E:/city_58/city_58/selector/text.html" />
-        <option value="E:/city_58/city_58/items.py" />
-        <option value="E:/city_58/city_58/settings.py" />
-        <option value="E:/city_58/city_58/selector/selector.py" />
-        <option value="E:/city_58/city_58/pipelines.py" />
-        <option value="E:/city_58/city_58/spiders/spider_city_58.py" />
-        <option value="E:/BaiduYunDownload/数字货币量化/coin_quant_class/program/class5/pandas基础操作.py" />
-        <option value="E:/BaiduYunDownload/数字货币量化/coin_quant_class/program/class6/2_使用hdf读取文件.py" />
-        <option value="E:/BaiduYunDownload/数字货币量化/coin_quant_class/program/class6/1_如何批量导入数据.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/class6/1_如何批量导入数据.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/class6/2_使用hdf读取文件.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/class6/3_转换数据周期_resample操作.py" />
-        <option value="$PROJECT_DIR$/text.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/class7/gate.py" />
-        <option value="$PROJECT_DIR$/zhuan_gongzhonghao.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_pairs.py" />
-        <option value="$PROJECT_DIR$/haodaifu.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/class8/【案例1】择时策略.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/class8/【案例2】如何计算资金曲线.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/class9/简单自动交易系统.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_text.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_所有交易对.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_tickers.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_K线数据.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class9/简单自动交易系统.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class8/【案例1】择时策略.py" />
-        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/gate_K线数据.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/backup.py" />
         <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/低买高卖.py" />
+        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/gate_K线数据.py" />
+        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/weixin/email_check.py" />
+        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/fcce_刷单.py" />
+        <option value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/weixin/text.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/my_code/gate_所有交易对.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/weixin/20180610_article/gate_K线数据.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/my_code/backup.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/weixin/20180611手动抓取代码/gate交易所累加抓取每分钟数据.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/weixin/20180611手动抓取代码/gate交易所累加抓取每5分钟数据.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/weixin/20180611累加数据/gate交易所累加抓取每5分钟数据.py" />
+        <option value="E:/BaiduYunDownload/block_coin/gate project/gate_5_min_data.py" />
+        <option value="E:/BaiduYunDownload/block_coin/gate project/gate_5_min_data_plus.py" />
+        <option value="E:/BaiduYunDownload/block_coin/gate project/TTT.py" />
+        <option value="E:/BaiduYunDownload/block_coin/gate project/gate_1_min_data_plus.py" />
+        <option value="E:/BaiduYunDownload/block_coin/gate project/gate_1_min_data.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/class8/【案例1】择时策略.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/weixin/text.py" />
+        <option value="E:/BaiduYunDownload/parameter result/【案例1】择时策略.py" />
+        <option value="E:/BaiduYunDownload/parameter result/【案例2】如何计算资金曲线.py" />
+        <option value="E:/BaiduYunDownload/parameter result/【案例3】寻找最优参数.py" />
+        <option value="E:/BaiduYunDownload/parameter result/read_data/text.py" />
+        <option value="E:/BaiduYunDownload/Super/__init__.py" />
+        <option value="E:/BaiduYunDownload/Super/read_data/__init__.py" />
+        <option value="E:/BaiduYunDownload/Super/read_data/read_data.py" />
+        <option value="E:/BaiduYunDownload/Super/read_data/text.py" />
+        <option value="E:/BaiduYunDownload/Super/weixin.py" />
+        <option value="E:/BaiduYunDownload/Super/my_wx.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/class8/【案例2】如何计算资金曲线.py" />
+        <option value="E:/BaiduYunDownload/Super/trade_code/【案例1】择时策略.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/布林线验证/boll_20180624.py" />
+        <option value="E:/BaiduYunDownload/Super/trade_code/【案例2】如何计算资金曲线.py" />
+        <option value="E:/BaiduYunDownload/Super/trade_code/【案例3】寻找最优参数.py" />
+        <option value="E:/BaiduYunDownload/block_coin/program/class8/【案例3】寻找最优参数.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/布林线验证/Functions.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/布林线验证/__init__.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/布林线验证/boll_signal.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/bolling/text.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/bolling/Functions.py" />
+        <option value="E:/BaiduYunDownload/finally project/dingding.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/bolling/boll_signal.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/bolling/Signals.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/bolling/Evaluate.py" />
+        <option value="E:/BaiduYunDownload/Super/other_code/bolling/main.py" />
+        <option value="E:/BaiduYunDownload/finally project/TTT.py" />
       </list>
     </option>
   </component>
@@ -187,6 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,7 +249,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="coin_quant_class" />
+              <option name="myItemId" value="finally project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Super" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,145 +271,117 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="untitled" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gomine_DOC_Unicode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class" />
+    <property name="last_opened_file_path" value="E:/BaiduYunDownload/finally project/dingding.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/BaiduYunDownload/Super/other_code/bolling/Functions.py" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\BaiduYunDownload\Super\other_code\布林线验证" />
+      <recent name="E:\BaiduYunDownload\block_coin\gate project" />
+      <recent name="E:\BaiduYunDownload\block_coin\program\weixin\20180610_article" />
+      <recent name="E:\BaiduYunDownload\block_coin\coin_quant_class_0518\coin_quant_class\program\my_code" />
+      <recent name="D:\pandas\code" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\untitled\Gomine_DOC_Unicode" />
       <recent name="C:\Users\Administrator\PycharmProjects\untitled\forum\forum" />
       <recent name="C:\Users\Administrator\PycharmProjects\untitled\forum\article\templates" />
       <recent name="C:\Users\Administrator\PycharmProjects\untitled\TTT" />
       <recent name="C:\Users\Administrator\PycharmProjects\untitled" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\pandas\code" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.zhuan_gongzhonghao">
-    <configuration default="false" name="低买高卖" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.TTT">
+    <configuration default="false" name="boll_signal (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code" />
+      <option name="WORKING_DIRECTORY" value="E:/BaiduYunDownload/Super/other_code/bolling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cpin_quant_class" />
-      <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/低买高卖.py" />
+      <module name="parameter result" />
+      <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/Super/other_code/bolling/boll_signal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="backup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code" />
+      <option name="WORKING_DIRECTORY" value="E:/BaiduYunDownload/Super/other_code/bolling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cpin_quant_class" />
-      <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/backup.py" />
+      <module name="parameter result" />
+      <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/Super/other_code/bolling/text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="zhuan_weiyi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="dingding" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gomine_DOC_Unicode" />
+      <option name="WORKING_DIRECTORY" value="E:/BaiduYunDownload/finally project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_weiyi.py" />
+      <module name="finally project" />
+      <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/finally project/dingding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="zhuan_Edu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gomine_DOC_Unicode" />
+      <option name="WORKING_DIRECTORY" value="E:/BaiduYunDownload/Super/other_code/bolling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_Edu.py" />
+      <module name="parameter result" />
+      <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/Super/other_code/bolling/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="zhuan_gongzhonghao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="TTT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gomine_DOC_Unicode" />
+      <option name="WORKING_DIRECTORY" value="E:/BaiduYunDownload/finally project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_gongzhonghao.py" />
+      <module name="finally project" />
+      <option name="SCRIPT_NAME" value="E:/BaiduYunDownload/finally project/TTT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -485,19 +521,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.低买高卖" />
-      <item index="1" class="java.lang.String" itemvalue="Python.backup" />
-      <item index="2" class="java.lang.String" itemvalue="Python.zhuan_weiyi" />
-      <item index="3" class="java.lang.String" itemvalue="Python.zhuan_Edu" />
-      <item index="4" class="java.lang.String" itemvalue="Python.zhuan_gongzhonghao" />
+      <item index="0" class="java.lang.String" itemvalue="Python.boll_signal (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.text" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dingding" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TTT" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.zhuan_gongzhonghao" />
-        <item index="1" class="java.lang.String" itemvalue="Python.zhuan_weiyi" />
-        <item index="2" class="java.lang.String" itemvalue="Python.zhuan_Edu" />
-        <item index="3" class="java.lang.String" itemvalue="Python.低买高卖" />
-        <item index="4" class="java.lang.String" itemvalue="Python.backup" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TTT" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.boll_signal (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dingding" />
+        <item index="4" class="java.lang.String" itemvalue="Python.text" />
       </list>
     </recent_temporary>
   </component>
@@ -532,9 +568,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35427952" sideWeight="0.5089568" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3900325" sideWeight="0.49074075" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45503792" sideWeight="0.4910432" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24938068" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34127843" sideWeight="0.48946258" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20368364" sideWeight="0.4910432" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34019503" sideWeight="0.48946258" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43159065" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -566,217 +602,264 @@
           <line>1</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/forum/forum/settings.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/pandas/program/Functions.py">
+    <entry file="file://E:/BaiduYunDownload/parameter result/【案例3】寻找最优参数.py" />
+    <entry file="file://E:/BaiduYunDownload/parameter result/read_data/text.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/read/text.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/read/read_data.py" />
+    <entry file="file://E:/BaiduYunDownload/股票量化学习/class8/class8/program/Functions.py" />
+    <entry file="file://E:/BaiduYunDownload/股票量化学习/class8/class8/program/config.py" />
+    <entry file="file://E:/BaiduYunDownload/block_coin/gate project/gate_1_min_data.py" />
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/class8/【案例1】择时策略.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/pandas/program/Options/apply.py">
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/class6/1_如何批量导入数据.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
+        <state relative-caret-position="-255">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class6/2_使用hdf读取文件.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class6/1_如何批量导入数据.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class6/3_转换数据周期_resample操作.py" />
-    <entry file="file://$PROJECT_DIR$/text.py">
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/class6/4_分组处理操作_groupby.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="442">
+          <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zlearning/gomine20180507/zhuan_Edu.py">
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/weixin/20180611累加数据/gate交易所累加抓取每5分钟数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/weixin/20180610_article/gate交易所累加抓取每分钟数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/read_data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/code/【案例2】如何计算资金曲线.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/my_wx.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/weixin.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/read_data/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/code/【案例1】择时策略.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/read_data/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/trade_code/Signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/trade_code/Functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/trade_code/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/gate project/gate_1_min_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-843">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="2524" column="0" lean-forward="false" selection-start-line="2524" selection-start-column="0" selection-end-line="2524" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/trade_code/【案例1】择时策略.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/trade_code/【案例2】如何计算资金曲线.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/布林线验证/Signals.py" />
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/class8/Functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/class8/Evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1210">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/class8/Signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/class8/【案例2】如何计算资金曲线.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/trade_code/【案例3】寻找最优参数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/block_coin/program/class8/【案例3】寻找最优参数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/布林线验证/boll_20180624.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/布林线验证/Evaluate.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/布林线验证/Functions.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/布林线验证/__init__.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/布林线验证/boll_signal.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/bolling/boll_20180624.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="102" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/bolling/text.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="43" />
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class7/gate.py" />
-    <entry file="file://$PROJECT_DIR$/gate.py">
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/gate project/gate_1_min_data_plus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="303">
+          <caret line="80" column="59" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="80" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_pairs - 副本.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class7/Get_data_from_exchange.py" />
-    <entry file="file://D:/python3/Lib/site-packages/pandas/io/excel.py">
+    <entry file="file://E:/BaiduYunDownload/finally project/dingding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haodaifu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuan_gongzhonghao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class8/Evaluate.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class9/Trade.py" />
-    <entry file="file://E:/BaiduYunDownload/股票量化学习/coin_quant_class_0518(1)/Signals.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class8/Signals.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class8/【案例1】择时策略.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class8/【案例3】寻找最优参数.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class8/【案例2】如何计算资金曲线.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class9/简单自动交易系统.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_pairs.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_tickers.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_single_ticker.py" />
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/shenyuanji9339/Files/Signals.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_单项交易行情.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_所有交易对.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class7/【案例3】使用ccxt在binance进行交易.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class7/【案例2】其他交易所api地址案例.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_text.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/class7/【案例1】okex获取ticker数据.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class/program/my_code/gate_K线数据.py" />
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class8/Evaluate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1290">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class8/Signals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1375">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class8/【案例2】如何计算资金曲线.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class8/Functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/gate_单项交易行情.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class7/【案例1】okex获取ticker数据.py">
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/bolling/boll_signal.py" />
+    <entry file="file://E:/BaiduYunDownload/Super/trade_code/Evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python3/Lib/site-packages/pandas/io/pytables.py">
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/bolling/Functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="444" column="0" lean-forward="false" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
+        <state relative-caret-position="201">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class9/简单自动交易系统.py">
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/bolling/Evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="-204">
+          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class9/Trade.py">
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/bolling/Signals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
+        <state relative-caret-position="252">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/class8/【案例1】择时策略.py">
+    <entry file="file://E:/BaiduYunDownload/Super/other_code/bolling/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/gate_K线数据.py">
+    <entry file="file://E:/BaiduYunDownload/finally project20180621/finally project/wx-auto-reply/wx_friends.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="e#24#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/gate_text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/backup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="9">
+          <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/BaiduYunDownload/block_coin/coin_quant_class_0518/coin_quant_class/program/my_code/低买高卖.py">
+    <entry file="file://E:/BaiduYunDownload/finally project/TTT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_Edu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_weiyi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gomine_DOC_Unicode/zhuan_gongzhonghao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="442">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
           <folding />
         </state>
       </provider>
